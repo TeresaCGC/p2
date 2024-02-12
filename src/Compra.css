@@ -24,12 +24,28 @@ table{
 
 
 .Tablas12 {
-    display: flex;
+    display: grid;
+    gap: 20px;
+    max-width: 500px;
+    padding: 10px;
+
+}
+
+.Tablas12 .billete:hover {
+    border-collapse: collapse;
+    background-color:rgb(168,199,200); 
 }
 
 
 
-img {
+.Tablas12 img {
     width: 350px;
-    height: auto 
+    height: auto;
+}
+
+.logo {
+    display: block;
+    width:10px;
+    height:auto;
+    margin: 30px;
 }
