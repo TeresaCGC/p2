@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(260, 240, 220);
+    color: rgb(80, 40, 20);
+}
+
+
+.table-primera {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 3px solid rgb(188,219,220);
+  }
+
+  .titulo{
+    width: 100%;
+    background:rgb(188,219,220);
+  }
+  th {
+    font-size: 15px;
+    text-align: center;
+    padding: 8px; 
+  }
+  .table-primera td {
+    font-size: 15px;
+    text-align: center;
+    padding: 0px; 
+  }
+
+  .Volver {
+    color:rgb(80, 40, 20);
+  }
+
+  
