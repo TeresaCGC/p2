@@ -1,10 +1,10 @@
-body{
+    body{
     background-color: rgb(260, 240, 220);
-    margin:0;
-}
+    margin:auto;
+    }
 
 
-.contenedor{
+    .contenedor{
     display: flex;
     list-style: none;
     margin: 0;
@@ -13,15 +13,15 @@ body{
     justify-content: center;
     align-items: center;
     /*rgb(200, 180, 160);*/
-    
-}
 
-.contenedor li{
+    }
+
+    .contenedor li{
     flex: 1 1 0;
-}
+    }
 
 
-.contenedor a {
+    .contenedor a {
     font: 25px sans-serif;
     text-align: center;
     text-decoration: none;
@@ -30,9 +30,9 @@ body{
     user-select: none;
     font-family: Georgia, serif;
     font-size: 21px; 
-}
+    }
 
-.contenedor b {
+    .contenedor b {
     font: 25px sans-serif;
     text-align: center;
     text-decoration: none;
@@ -41,48 +41,68 @@ body{
     user-select: none;
     font-family: Georgia, serif;
     font-size: 17px; 
-}
+    }
 
 
-.contenedor li:hover {
+    .contenedor li:hover {
     background:  rgb(220, 200, 180);
-}
+    }
 
 
-.submenu {
+    body h1 {
+    text-align: center;
+    color: rgb(80, 40, 20);
+    }
+
+
+    body h3 {
+    text-align: center;
+    }
+    body p {
+    text-align: center;
+    }
+
+    body img {
+    margin: 20px auto;
+    display: block;
+    } 
+
+    body nav {
+    text-align: center;
+    }
+
+    form.formularioizquierda * { 
+    text-align:left;
+    } 
+
+
+    .submenu {
     display:none;
     list-style: none;
     padding: 0;
     position: absolute;
     width: 24.6%;
-   
-}
 
-.submenu > li {
+    }
+
+    .submenu > li {
     background: rgb(188,219,220);
     width: 100%;
     text-align: center;
     color: rgb(80, 40, 20);
-}
+    }
 
-.contenedor > li:hover > .submenu {
+    .contenedor > li:hover > .submenu {
     display: block;
 
-}
+    }
 
-.imagen img {
-    max-width: 50%;
-    max-height: 50%;
-    width: auto;
-    height: auto;
-    margin: 20px;
-}
 
 
 #titulo {
     color: rgb(80, 40, 20);
     margin: 10px;
-}
+ }
 
 p {
     color: rgb(80, 40, 20);
@@ -92,15 +112,17 @@ p {
 
 .logo {
     display: block;
-    margin:10px;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom:10px;
 }
 
 .inscripcion fieldset {
     background: rgb(188,219,220);
     border: none;
-   
+
     margin:20px
-}
+ }
 
 .inscripcion {
     background: rgb(188,219,220);
@@ -109,69 +131,65 @@ p {
     position: fixed;
     bottom:0;
     margin:0px;
-}
+ }
 
 
 .A {
     color: rgb(60, 20, 0);
-}
+    }
 
 .B {
     color: rgb(60, 20, 0);
-}
+    }
 
 .C {
     color: rgb(60, 20, 0);
-}
+    }
 
 .table-primera {
     width: 100%;
     margin: 0 auto;
     border-collapse: separate;
     border-spacing: 0;
-  }
-  table{
+    }
+table{
     margin: 0 auto;
     border-collapse: collapse;
     border-spacing: 0;
     border: 3px solid rgb(188,219,220);
-  }
+    }
 
-  .titulo{
+.titulo{
     width: 100%;
     background:rgb(188,219,220);
-  }
-  th {
+    }
+
+th {
     font-size: 15px;
     text-align: center;
     padding: 8px; 
-  }
-  .table-primera td {
+    }
+.table-primera td {
     font-size: 15px;
     text-align: center;
     padding: 0px; 
-  }
-  table td {
+    }
+table td 
+{
     font-size: 18px;
     text-align: center;
     padding: 4px; 
-  }
-.Tablas12 {
-    display: grid;
-    gap: 20px;
-    max-width: 500px;
-    padding: 10px;
+ }
 
-}
 
-.Tablas12 .billete:hover {
+table .billete:hover {
     border-collapse: collapse;
     background-color:rgb(168,199,200); 
 }
 
 
 
-.Tablas12 img {
+table img {
     width: 350px;
     height: auto;
 }
